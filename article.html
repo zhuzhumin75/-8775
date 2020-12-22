@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="article.css" />
+    <script src="article.js"></script>
+</head>
+<body>
+<div id="top">
+    <div id="top_txt">
+        <a href="mailto:1304216708@qq.com" title="给站长发邮件">联系站长</a>
+    </div>
+</div>
+
+<div id="vi">
+    <div id="tt">
+        生命就像人家的魔法书<br />
+        涂涂改改又是一年
+    </div>
+</div>
+
+<div id="nav">
+    <ul>
+        <li><a href="index.html" target="_self">首页</a></li>
+        <li><a class="bar">|</a></li>
+        <li><a href="article.html" target="_self">日志</a></li>
+        <li><a class="bar">|</a></li>
+        <li><a href="photo.html" target="_self">相册</a></li>
+        <li><a class="bar">|</a></li>
+        <li><a href="message.html" target="_self">留言</a></li>
+        <li><a href="produce.html" target="_self">|简介</a></li>
+        <li><a href="bar">|</a></li>
+    </ul>
+</div>
+<div id="main">
+    <div id="right">
+        <h4>|最新日志</h4>
+        <h5><a onclick="openContent(0)">Web前端开发技术</a></h5>
+        <span class="date">2020/12/18</span><br/>
+        <p>随着因特网技术的飞速发展，Web也在同步发展，应用领域越来越广，已经是这个时代不可或缺的信息传播载体。新一代Web网站需要HTML，CSS，Java等组合技术。
+        </p>
+        <hr />
+        <h5><a onclick="openContent(1)">网页技术应用</a></h5>
+        <span class="date">2020/12/17</span><br />
+        <p>Internet，中文成为国际互联网。众所周知，Internet起源于1969年，当初没有人会预料到，在几十年后的今天，互联网成了全球互通的主要方式。网页是Internet最主要的组成部分，在本章读者可以学到很多Internet及网页制作方面的基础知识。TCP/IP协议使用客户端/服务器模式进行通信，TCP/IP通信是点对点的，即通信是网络中的一台主机与另一台主机之间的。读者要了解的是，当前Internet上的数据都是通过TCP/IP在网络上进行控制、转发的。
+        </p>
+        <hr />
+        <h5><a onclick="openContent(2)">HTML技术应用</a></h5>
+        <span class="date">2020/11/11</span><br/>
+        <br />
+        <p>HTLM是一种超文本标记语言，是web的页面结构，它通过标记符号来标记要显示的网页中的各个部分。
+        </p>
+        <hr />
+        <h5><a onclick="openContent(3)">Javascript技术应用</a></h5>
+        <span class="date">2020/10/1</span>
+        <br />
+        <p>javascript是一种基于对象和事件驱动并具有相对安全性的客户端脚本语言，同时也是广泛用于web开发的脚本语言，它的出现使得网页和用户之间实现了一种实时性，动态交互的关系。
+        </p>
+        <hr />
+        <a href="#">下一页</a>
+    </div>
+<div id="content">
+    <h5 id="content_h5"></h5>
+    <span class="date" id="content_span"></span>
+    <br />
+    <p id="content_p"></p>
+    <button onclick="closeContent(this)">关闭窗口</button>
+</div>
+
+</body>
+</html>
